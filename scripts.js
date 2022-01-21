@@ -13,13 +13,17 @@ function criaCard(nomeCarro,precoCarro){
         
     let $preco =  document.createElement("p")
         $preco.classList.add("flex","flexend")
-        $preco.innerText = precoCarro
+        $preco.innerText = `R$ ${precoCarro}`
 
-    $card.appendChild($img,$titulo,$preco)
+    $card.append($img,$titulo,$preco)
     return $card;    
 }
-function pesquisar(){    
+function pesquisar(event){    
     let carrosEncontrados = []
+    
+    if(event){
+        event.preventDefault()
+    }
     axios.get("assets/db.json").then(({data})=>{
          
         let textoPesquisado = document.querySelector("input.pesquisa").value
@@ -31,13 +35,11 @@ function pesquisar(){
         for (const carro of data) {
             let isNomeParecido = carro.nome.toLowerCase().indexOf(textoPesquisado)>=0
             if(isNomeParecido){
-                //debugger
+                carrosEncontrados.push(carro)
                 $grid.appendChild(criaCard(carro.nome,carro.preco))
             } 
 
-        }
-
-        let m=0
+        }  
         
     })
 
