@@ -1,32 +1,31 @@
-function recurs(nmbr){
+
+function criaCard(nomeCarro,precoCarro){
+    let $card = document.createElement("div")
+        $card.classList.add("card borda-redonda")
+
+    let $img =  document.createElement("img")
+        $img.classList.add("wid95")
+        $img.setAttribute("src","./imgs/carro.png")
+
+    let $titulo =  document.createElement("h1")
+        $titulo.innerText = nomeCarro
     
-    if (nmbr==1)
-    return 1;
-    else
-    arr.push(3*recurs(nmbr-1));
+        
+    let $preco =  document.createElement("p")
+        $preco.classList.add("flex flexend")
+        $preco.innerText = precoCarro
+
+    $card.appendChild($img,$titulo,$preco)
+
+    
+}
+function pesquisar(){    
+    axios.get("assets/db.json").then(a=>{
+        debugger
+        console.log('a'+a)
+    })
+
+
 }
 
-let 
-    isWhite = false,
-    arr=[];
-    let
-    fixo=new Array(5);
-
-    fixo[0]='E';
-    fixo[4]='S';
-    console.log(fixo);
-
-
-function changeTheme(){    
-    isWhite ? document.querySelector("body").style.backgroundColor='#010101' :
-    document.querySelector("body").style.backgroundColor='#fff';
-
-    isWhite= !isWhite;
-
-    function hapn(){
-        console.log('data');
-    }
-
-    console.log(arr);
-}
-
+pesquisar()

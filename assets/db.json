@@ -1,0 +1,38 @@
+[
+	{
+		"id" : 1,
+		"nome" : "Range Rover Sport",
+		"foto" : "land-rover-fake.jpg",
+		"preco" : 112.55
+	},
+	{
+		"id" : 2,
+		"nome" : "Discovery Sport",
+		"foto" : "land-rover-2-fake.jpg",
+		"preco" : 150.00
+	},
+	{
+		"id" : 3,
+		"nome" : "Honda Civic",
+		"foto" : "civic-fake.jpg",
+		"preco" : 299.00
+	},
+	{
+		"id" : 4,
+		"nome" : "Jaguar XE",
+		"foto" : "jaguar-fake.jpg",
+		"preco" : 3000.00
+	},
+	{
+		"id" : 5,
+		"nome" : "Tiggo 5X",
+		"foto" : "tiggo-fake.jpg",
+		"preco" : 107.99
+	},
+	{
+		"id" : 6,
+		"nome" : "Ford Focus",
+		"foto" : "ford-focus-fake.jpg",
+		"preco" : 0.99
+	}
+]
