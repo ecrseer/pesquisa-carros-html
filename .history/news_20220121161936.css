@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    color:white; 
+  }
+
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  } 
+  .header { 
+    background-color: #33c7cc;    
+    position: sticky;
+    z-index: 2; 
+    width: 100%;
+    max-height: 21vh;
+  }
+  .resto{
+      background-color: #3a1722;
+           
+  }
+  
+ 
+  
+    

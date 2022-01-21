@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box; 
+    --topbar-altura:60px;
+  }
+
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  } 
+  .espaco{
+    height: var(--topbar-altura);
+  }
+
+  .header { 
+    background-color: #33c7cc;    
+    position: fixed; 
+    top:0;
+    width: 100vh;
+    max-height: 60px;
+    box-shadow: 1px 1px 3vh 1px;
+  }
+   
+  
+ 
+  
+    

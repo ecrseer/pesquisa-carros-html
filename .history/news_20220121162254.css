@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box; 
+  }
+
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  } 
+
+  .header { 
+    background-color: #33c7cc;    
+    position: fixed; 
+    top:0;
+    width: 100%;
+    max-height: 21vh;
+    box-shadow: 1vh 1vh 1vh 1vh;
+  }
+   
+  
+ 
+  
+    

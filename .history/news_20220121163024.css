@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box; 
+    --topbar-altura:60px;
+  }
+
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  } 
+  .espaco{
+    height: calc(var(--topbar-altura) + 10px);
+  }
+  .maxwidth{
+    width: 100%;
+  }
+  .bor
+
+  .header { 
+    background-color: #33c7cc;    
+    position: fixed; 
+    top:0;
+    width: 100vh;
+    max-height: var(--topbar-altura);
+    box-shadow: 1px 1px 11px 1px;
+  }
+   
+  
+ 
+  
+    

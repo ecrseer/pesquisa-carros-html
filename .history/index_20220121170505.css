@@ -1,0 +1,43 @@
+* { 
+    --topbar-altura:60px;
+  }
+
+  html {
+    font-family: "Roboto","Lucida Sans", sans-serif;
+    
+  } 
+  .espaco{
+    height: calc(var(--topbar-altura) + 10px);
+  }
+  .wid100{
+    width: 100%;
+  }
+   
+  .borda-redonda{
+    border-radius: 4px;
+  }
+  input{
+    padding: 1vh;
+    padding-left: 3vh;
+    font-size: 27px;
+  }
+
+  .header {    
+    background: white;
+    position: fixed; 
+    top:0;
+    width: 95%;    
+    max-height: var(--topbar-altura);
+    box-shadow: 1px 1px 11px 1px;
+    padding: 0 2vh;
+    padding-right: 424px;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  
+ 
+  
+    
